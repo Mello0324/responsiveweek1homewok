@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="stylesheet" href="src/style.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,12 +15,11 @@
         h1 {
             text-align: center;
             margin: 40px;
-            font-size: 50px;
+            font-size: 96px;
         }
         h2 {
             text-align: center;
-            font-weight: bold;
-            font-size: 80px;
+            font-size: 40px;
             margin: 0px;
 
         }
@@ -60,15 +63,104 @@
             color: var(--primary-color);
             border: 1px solid var(--primary-color);
         }
+        .mt-5 .contact-link{
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 20px;
+        }
+        .text-left {
+            text-align: left;
+        }
         </style>
 </head>
 <body>
-    <h1>👋🏻Hi! I am</h1>
-    <h2>Mamello Khokoane</h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+  <a class="navbar-brand" href="index.html">Mamello</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">
+    </span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html#contact">Contact me</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+</nav>
+    <h2>👋🏻Hi! I am</h2>
+    <h1>Mamello Khokoane</h1>
     <h3>SheCodes student,based in Africa</h3>
     <div class="navigation-links">
         <a href="about.html#contact" class="contact-link">Contact Me</a>
         <a href="about.html" class="about-link">About me</a>
+
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+    <img src="https://31ukq.csb.app/images/yoga.png" class="img-fluid rounded pt-5">
+    </div>
+    <div class="col-md-6">
+        <h2 class="mb-3 pt-5">Yoga app</h2>
+        <p> 
+            Yoga is a mind-body pratise that combines
+            physical postures,breathing techniques,and
+            meditation to promote overrall well-being.
+            Originating in ancient India,it's known for
+            improving flexibility,strength,and mental
+            clarity while reducing stress.
+        </p>
+        <div class="mt-5">
+            <a href="#" class="contact-link button-link">Launch Yoga App</a>
+        </div>
+    </div>
+    </div> 
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+    <h2 class="mb-3 text-left pt-5">Weather app</h2>
+    <p>
+        App ena ea boemo ba leholimo e u fa
+        tlhahiso leseling e nepahetseng ka 
+        maemo a leholimo.E thusa basebelisi
+        ho tseba hore na hotla ba le pula,
+        letsatsi kapa moea o matla.ka tsela ena,
+        u ka rera letsatsi la hau ka bohlale.
+    </p>
+    <div class="mb-5 mt-5">
+     <a href="#" class="contact-link button-link">Launch Weather app</a> 
+    </div>
+    </div>
+            <div class="col-md-6">
+        <img src="https://31ukq.csb.app/images/weather.png" class="img-fluid rounded pt-5">
+        </div>
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+            <img src="https://31ukq.csb.app/images/yogurt.png" class="img-fluid rounded pt-5">
+    </div>
+    <div class="col-md-6">
+        <h2 class="mb-3 pt-5">Yogurt app</h2>
+        <p>
+          App ena ea yogurt e ofa monyetla oa ho 
+          laola,ho fumana leho ordara yogurt ka potlako.
+          E u thusa ho khetha mefuta e fapaneng ea yogurt,
+          ho latela litakatso le tlhoko ea hau.Tobetsa konopo eka 
+          tlaase ho qala!
+        </p>
+    <div class="mb-5 mt-5">
+     <a href="#" class="contact-link button-link">Launch Weather app</a> 
+    </div>
+
 </body>
 </html>
